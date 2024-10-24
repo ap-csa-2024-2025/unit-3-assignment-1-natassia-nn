@@ -10,6 +10,5 @@ public class Main
     boolean isCongruent = ((r1.equals(r2)) || isRotated);
     boolean isSimilar = (isCongruent || (r1.getLength() / r2.getLength()) == (r1.getWidth() / r2.getWidth()))
 
-    // write solutions to problems here
   }
 }
